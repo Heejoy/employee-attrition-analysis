@@ -5,7 +5,7 @@
 ---
 
 ## 📌 Executive Summary
-IBM’s current attrition rate stands at **16.12%**. By leveraging machine learning to identify high-risk employees and simulating targeted retention strategies, this project successfully reduced the projected attrition rate to **7.6%**.
+IBM’s attrition rate stands at **16.12%**. By leveraging machine learning to identify high-risk employees and simulating targeted retention strategies, this project successfully reduced the projected attrition rate to **7.6%**.
 
 ## 📃 Project Documentation
 For a comprehensive overview of the research, methodology, and business impact of this project, you can review the full presentation:
