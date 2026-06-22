@@ -49,7 +49,7 @@ We utilized a **Logistic Regression** model to classify employees based on their
 ## 📊 Key Findings
 * **Primary Drivers:** Overtime, Monthly Income, and Job Level are the most significant factors influencing turnover.
 
-* ![Prediction Dashboard](emlpoyee_attrition_prediction_dashboard.png)
+* ![Prediction Dashboard](employee_attrition_prediction_dashboard.png)
 
 * ![Strategy Dashboard](employee_attrition_strategy_dashboard.png)
 
