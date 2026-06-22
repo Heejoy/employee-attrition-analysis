@@ -58,10 +58,4 @@ We utilized a **Logistic Regression** model to classify employees based on their
 * ![Strategy Dashboard](employee_attrition_strategy_dashboard.png)
 
 *For a detailed look at the statistical KPIs, see: [attrition.sql](attrition.sql)*
-
----
-
-## 🚀 Getting Started
-1. **Clone the repository:** `git clone [your-repo-link]`
-2. **Run Data Cleaning:** Execute `python data_cleaning.py` to process the raw dataset.
-3. **Run Prediction Model:** Execute `python predictive_model.py` to generate the risk analysis and strategy simulation.
+*For a detailed look at the Dashboard, see: [attrition.](bi )*
