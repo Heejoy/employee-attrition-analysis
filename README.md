@@ -19,6 +19,8 @@ For a comprehensive overview of the research, methodology, and business impact o
 * **Database & Querying:** SQL (Structured Query Language)
 * **Business Intelligence & Data Visualization:** Power BI
 
+---
+
 ## 🛠 Technical Implementation
 
 ### 1. Data Cleaning & Feature Engineering
@@ -33,6 +35,8 @@ To ensure high-quality insights, the raw dataset underwent rigorous preprocessin
 
 *View the full cleaning logic and feature selection here: [data_cleaning.py](data_cleaning.py)*
 
+---
+
 ### 2. Predictive Modeling (Logistic Regression)
 We utilized a **Logistic Regression** model to classify employees based on their flight risk.
 * **Model Approach:** We employed `class_weight='balanced'` to ensure the model remained sensitive to the minority class (employees who leave), which historically makes up only ~16% of the workforce.
@@ -44,9 +48,11 @@ We utilized a **Logistic Regression** model to classify employees based on their
 
 ## 📊 Key Findings
 * **Primary Drivers:** Overtime, Monthly Income, and Job Level are the most significant factors influencing turnover.
+
 * ![Prediction Dashboard](emlpoyee_attrition_prediction_dashboard.png)
 
 * ![Strategy Dashboard](employee_attrition_strategy_dashboard.png)
+
 * **Impact of Overtime:** 53.59% of employees who left worked overtime; 100% of employees predicted to leave fall within the overtime group.
 * **Projected Results:**
     * Overall attrition reduced from **16.1% to 7.6%**.
