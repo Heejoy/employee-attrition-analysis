@@ -48,15 +48,14 @@ We utilized a **Logistic Regression** model to classify employees based on their
 
 ## 📊 Key Findings
 * **Primary Drivers:** Overtime, Monthly Income, and Job Level are the most significant factors influencing turnover.
-
-* ![Prediction Dashboard](employee_attrition_prediction_dashboard.png)
-
-* ![Strategy Dashboard](employee_attrition_strategy_dashboard.png)
-
 * **Impact of Overtime:** 53.59% of employees who left worked overtime; 100% of employees predicted to leave fall within the overtime group.
 * **Projected Results:**
     * Overall attrition reduced from **16.1% to 7.6%**.
     * Junior staff (Job Levels 1-2) attrition rate decreased from **20.54% to 6.60%**.
+
+* ![Prediction Dashboard](employee_attrition_prediction_dashboard.png)
+
+* ![Strategy Dashboard](employee_attrition_strategy_dashboard.png)
 
 *For a detailed look at the statistical KPIs, see: [attrition.sql](attrition.sql)*
 
