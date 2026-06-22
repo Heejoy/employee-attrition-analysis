@@ -24,7 +24,7 @@ For a comprehensive overview of the research, methodology, and business impact o
 ## 🧑‍💻 Technical Implementation
 
 ### 1. Data Cleaning & Feature Engineering
-To ensure high-quality insights, the raw dataset underwent rigorous preprocessing:
+To ensure high-quality insights, the raw dataset underwent preprocessing:
 * **Noise Reduction:** Automatically dropped columns with zero variance and mapped categorical text (e.g., "Yes"/"No") to numeric binary values (`1`/`0`) required for Logistic Regression.
 * **Correlation-Driven Selection:** Performed a correlation analysis against the target `Attrition` variable to objectively identify the strongest statistical drivers of turnover.
 * **Strategic Feature Engineering:** Beyond statistical correlations, we deliberately retained features like `JobLevel`, `PerformanceRating`, and `JobInvolvement`.
