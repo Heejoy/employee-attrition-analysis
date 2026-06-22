@@ -58,4 +58,5 @@ We utilized a **Logistic Regression** model to classify employees based on their
 * ![Strategy Dashboard](employee_attrition_strategy_dashboard.png)
 
 *For a detailed look at the statistical KPIs, see: [attrition.sql](attrition.sql)*
+
 *For a detailed look at the Dashboard, see: [attrition.](bi )*
