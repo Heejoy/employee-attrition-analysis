@@ -33,7 +33,7 @@ To ensure high-quality insights, the raw dataset underwent preprocessing:
 * **Model Accuracy:** By including the highest-correlated variables (`TotalWorkingYears`, `OverTime`, `MonthlyIncome`), the Logistic Regression model maximizes its predictive power.
 * **Actionability:** Including `JobLevel` and `PerformanceRating` allows our model to simulate "What-If" scenarios, such as: *"If we increase the salary of high-performing junior staff, how much does our attrition risk drop?"*.
 
-*View the full cleaning logic and feature selection here: [data_cleaning.py](data_cleaning.py)*
+*View the full cleaning logic and feature selection here: [data_cleaning.py](Python/data_cleaning.py)*
 
 ---
 
@@ -42,7 +42,7 @@ We utilized a **Logistic Regression** model to classify employees based on their
 * **Model Approach:** We employed `class_weight='balanced'` to ensure the model remained sensitive to the minority class (employees who leave), which historically makes up only ~16% of the workforce.
 * **Strategy Simulation:** After calculating baseline risk, we applied custom HR policy functions to simulate the impact of policy changes (e.g., capping overtime for junior staff and adjusting compensation packages).
 
-*View the full modeling and strategy simulation code here: [predictive_model.py](predictive_model.py)*
+*View the full modeling and strategy simulation code here: [predictive_model.py](Python/predictive_model.py)*
 
 ---
 
@@ -57,6 +57,6 @@ We utilized a **Logistic Regression** model to classify employees based on their
 
 * ![Strategy Dashboard](employee_attrition_strategy_dashboard.png)
 
-*For a detailed look at the statistical KPIs, see: [attrition.sql](attrition.sql)*
+*For a detailed look at the statistical KPIs, see: [IBM_analysis.sql](SQL/IBM_analysis.sql)*
 
-*For a detailed look at the Dashboard, see: [attrition.](bi )*
+*For a detailed look at the Dashboard, see: [IBM_dashboard.pbix](Dashboard/IBM_dashboard.pbix)*
