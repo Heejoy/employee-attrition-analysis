@@ -9,7 +9,7 @@ IBM’s attrition rate stands at **16.12%**. By leveraging machine learning to i
 
 ## 📃 Project Documentation
 For a comprehensive overview of the research, methodology, and business impact of this project, you can review the full presentation:
-* **Presentation**: [IBM Employee Attrition Strategy.pptx](IBM Employee Attrition Strategy.pptx)
+* **Presentation**: [IBM Employee Attrition Strategy](IBM Employee Attrition Strategy.pdf)
 
 ---
 
